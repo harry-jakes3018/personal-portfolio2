@@ -46,7 +46,7 @@ function NewsLetter({ onValidated, status, message }) {
                                     name=""
                                     id=""
                                     value={email}
-                                    onChange={(e) => e.target.value}
+                                    onChange={(e) => setEmail(e.target.value)}
                                     placeholder="Email Address"
                                 />
                                 <button type="submit">Submit</button>
