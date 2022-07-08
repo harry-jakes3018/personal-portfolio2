@@ -54,7 +54,7 @@ function Banner() {
                         <h1>
                             {`Hi, I'm Jitendra Garg`}
                             <br />
-                            <span classNaame="wrap">{text}</span>
+                            <span className="wrap">{text}</span>
                         </h1>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and
@@ -69,7 +69,7 @@ function Banner() {
                     </Col>
 
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Image" />
+                        <img src={headerImg} alt="Header" />
                     </Col>
                 </Row>
             </Container>

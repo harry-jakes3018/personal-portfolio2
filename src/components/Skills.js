@@ -47,19 +47,19 @@ function Skills() {
                                 className="skill-slider"
                             >
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="Item 1" />
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="Item 2" />
                                     <h5>Brand Identity</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="Item 3" />
                                     <h5>Logo Design</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="Item 4" />
                                     <h5>Web Development</h5>
                                 </div>
                             </Carousel>

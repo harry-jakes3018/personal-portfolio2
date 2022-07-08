@@ -22,7 +22,9 @@ function NavBar() {
         return () => window.removeEventListener("scroll", onScroll);
     }, []);
 
-    const onUpdateActiveLink = () => {};
+    const onUpdateActiveLink = (value) => {
+        setActiveLink(value);
+    };
 
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -71,14 +73,14 @@ function NavBar() {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#">
-                                <img src={navIcon1} alt="" />
+                            <a href="https://www.hello.com">
+                                <img src={navIcon1} alt="Social Icon 1" />
                             </a>
-                            <a href="#">
-                                <img src={navIcon2} alt="" />
+                            <a href="https://www.hello.com">
+                                <img src={navIcon2} alt="Social Icon 2" />
                             </a>
-                            <a href="#">
-                                <img src={navIcon3} alt="" />
+                            <a href="https://www.hello.com">
+                                <img src={navIcon3} alt="Social Icon 3" />
                             </a>
                         </div>
                         <button
