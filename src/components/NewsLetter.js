@@ -1,5 +1,4 @@
-import { Alert } from "bootstrap";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Alert } from "react-bootstrap";
 import { useState, useEffect } from "react";
 
 function NewsLetter({ onValidated, status, message }) {
